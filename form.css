@@ -1,0 +1,61 @@
+body{
+    background-image: url(bg4.jpg);
+    background-size: 100%;
+
+}
+.box{
+    
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 620px;
+    margin-top: 40px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px;
+}
+label{
+    font-family: monospace;
+    font-size: 27px;
+    color: burlywood;
+
+}
+p{
+    font-family: monospace;
+    font-size: 27px;
+    color: burlywood; 
+}
+h1{
+    font-family: monospace;
+    font-size: 60px;
+    color: burlywood; 
+}
+.submit{
+    width: 148px;
+    height: 45px;
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+
+}
+
+.submit:hover,
+.submit:hover:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  
+}
+input[type="text" i] {
+    padding: 4px;
+    width: 170px;
+    font-size: 19px;
+}
+input[type="password" i]{
+    padding: 4px;
+    width: 170px;
+    font-size: 19px;
+}
+input[type="email" i]{
+    padding: 4px;
+    width: 170px;
+    font-size: 19px;
+}

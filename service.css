@@ -1,0 +1,393 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pic.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 90px;
+  border-radius: 60px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.tex-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.tex-box h1{
+  font-size: 62px;
+}
+.tex-box p{
+  margin: 10px 0 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.btn:hover{
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+/* Services */
+
+.services{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+p{
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 10px;
+}
+.row{
+  margin-top: 5%;
+  justify-content: space-between;
+  display: flex;
+  
+}
+.service-col{
+  flex-basis: 31%;
+  background: #fad0d0;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+} 
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+
+}
+.service-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.about{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  display: flex;
+}
+.container{
+  display: flex;
+  margin-top: 5%;
+}
+.box{
+  margin-bottom: 5%;
+  box-sizing: border-box;
+}
+.box img{
+  width: 83%;
+  height: 97%;
+  margin-top: 13px;
+}
+
+/* Why We ? */
+
+.contain{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.why{
+  font-size: 50px;
+}
+.box1{
+  margin-top: 5%;
+  justify-content: space-between;
+  display: flex;
+}
+.box2{
+  margin-top: 5%;
+  justify-content: space-between;
+  display: flex;
+}
+.colum{
+  flex-basis: 31%;
+  background: #abe4ff;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+.colum:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* helpline number */
+
+.call{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 7%;
+}
+h1{
+  color: #cd592e;
+}
+
+/* Brands we serve */
+
+
+.brands{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.brand-text{
+  font-size: 40px;
+}
+.brand-box1{
+  margin-top: 5%;
+  justify-content: space-between;
+  display: flex;
+}
+.brand-box2{
+  margin-top: 5%;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* footer */
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.icon .fab{
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+.far {
+  color: #f44336;
+}
+
+/* ---------------- About Us ----------------------- */
+
+.sub-header{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(aboutimage.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.about-us{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.about-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+.about-col img{
+  width: 100%;
+}
+.about-col h1{
+  padding-top: 0;
+}
+.about-col p{
+  padding: 15px 0 25px;
+}
+span{
+  color: black;
+}
+.service{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------------Contact Us---------------- */
+
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+  width: 100%;
+
+}
+.contact-us{
+  width: 80%;
+  margin: auto;
+}
+.contact-col{
+  flex-basis: 48%;
+  margin-bottom: 30px;
+
+}
+.contact-col div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-col div .fas{
+  font-size: 28px;
+  color: #f44336;
+  margin-right: 30px;
+}
+.contact-col div p{
+  padding: 0;
+}
+.contact-col div h5{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.btn2{
+  display: inline-block;
+  text-decoration: none;
+  color: #f44336;
+  border: 1px solid #f44336 ;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.btn2:hover{
+  color: aliceblue;
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+.vehicle-brand{
+  display: flex;
+ 
+}
+
+/* ---------------------Book Now---------------------- */
+
+#book-now{
+  padding: 5%;
+}
+.brand{
+  padding: 1%;
+  align-items: center;
+  justify-content: space-between;
+}
+h5{
+  padding: 1%;
+  color: #f44336;
+  font-size: 20px;
+}
+input{
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  height: 30px;
+  width: 170px;
+  border: 1px solid grey;
+}
+label{
+  font-size: 16px;
+  padding: 1%;
+  color: #556bd7;
+}
+.btn3{
+  text-decoration: none;
+  margin-left: 49%;
+  margin-top: 3%;
+  color: #f44336;
+  border: 1px solid #f44336 ;
+  border-radius: 5px;
+  padding: 8px 29px;
+  font-size: 13px;
+  background: transparent;
+  cursor: pointer;
+}
+.btn3:hover{
+  color: aliceblue;
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+
